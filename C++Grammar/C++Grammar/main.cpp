@@ -9,6 +9,7 @@
 #include <iostream>
 #include <stack>
 #include <vector>
+#include <math.h>
 using namespace std;
 
 void asterCollsion(vector<int> & asteroids) {
@@ -38,5 +39,6 @@ int main(int argc, const char * argv[]) {
     v1.push_back(1);
     v1.push_back(2);
     asterCollsion(v1);
+    
     return 0;
 }
